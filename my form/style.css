@@ -1,0 +1,94 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+    }
+    body{
+        background-color: rgb(233, 141, 20);
+        position: absolute;
+
+    }
+    #container{
+        width: 960px;
+        margin: -200px;
+    }
+    .form{
+        text-align: center;
+        background-color: rgb(223, 183, 128);
+        margin-top: 100px;
+        height: 520px;
+        width: 700px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 50px 50px;
+        border: 2px solid rgb(255, 255, 255, 0.1);
+        border-radius: 20px;
+        padding: 50px 35px;
+
+    }
+.p{
+    text-align: left;
+    margin-top: -40px;
+    font-size: 25px;
+} 
+.p a:hover{
+    color: rgb(189, 131, 55);
+}
+#welcome{
+    margin-top: 25px;
+}  
+.fleximage{
+    display: -webkit-flex;
+    display: flex;
+    
+
+    
+} 
+.flex-item{
+    margin: 10px;
+    background-color: rgb(247, 205, 151);
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.flex-item img{
+    margin-right:10px;
+    width: 35px;
+    padding: 3px;
+}
+h5{
+    margin-top: 10px;
+    font-size: larger;
+}
+.textfield{
+    width: 90%;
+    height: 45px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+
+}
+input::placeholder{
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.sign{
+    margin-top: 25px;
+
+
+}
+.btn{
+    background-color: rgb(109, 65, 8);
+    color: white;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+}

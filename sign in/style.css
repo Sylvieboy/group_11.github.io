@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#container{
+    width: 960px;
+    margin: 50px;
+}
+body{
+    background-color:rgb(206, 126, 21);
+    position:relative ;
+}
+.form{
+    background-color: rgb(223, 183, 128);
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin: 30px auto;
+    padding: 50px;
+    box-shadow: 1px rgb(68, 39, 2);
+}
+.welcome{
+    margin-top: -40px;
+
+
+}
+#details{
+    margin-top: 35px;
+    
+}
+#details h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+#details p{
+    margin-top: 12px;
+}
+.textarea{
+    width: 90%;
+    height: 45px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgb(109, 65, 8);
+    
+}
+.socialmedia{
+    margin-top: 40px;
+    padding: 20px;
+    height: 50px;
+}
+.socialmedia a{
+    background-color: rgb(248, 197, 130);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.dont{
+    margin-top: 20px;
+
+}
+.dont p{
+    font-size: 20px;
+    font-family: Arial;
+    color: rgb(53, 31, 2);
+
+}
+.dont a:hover{
+    color:rgb(177, 125, 57) ;
+}
